@@ -1,0 +1,23 @@
+body{
+	background-color: red;
+	font-family: Arial;
+	color: blue;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=button]{
+    border: 0px;
+    border-right: 25 px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    background: linear-gradient(to right, RGB(234, 158, 61) , RGB(238, 125, 56));
+}
